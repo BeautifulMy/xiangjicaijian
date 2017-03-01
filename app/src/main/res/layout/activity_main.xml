@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.myproject.xiangji.MainActivity">
+
+   <ImageView
+       android:id="@+id/imageview"
+       android:layout_width="200dp"
+       android:background="#F2F2F2"
+       android:layout_height="200dp"
+       android:layout_centerInParent="true"/>
+    <com.flipboard.bottomsheet.BottomSheetLayout
+        android:layout_alignParentBottom="true"
+        android:id="@+id/bottomview"
+        android:layout_width="match_parent"
+        android:layout_height="170dp">
+
+    </com.flipboard.bottomsheet.BottomSheetLayout>
+</RelativeLayout>
